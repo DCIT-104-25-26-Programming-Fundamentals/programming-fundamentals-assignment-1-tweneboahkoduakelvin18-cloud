@@ -51,15 +51,15 @@ def get_grade(score):
     if score < 0 or score > 100:
         return None
     elif score >= 80:
-        return "your grade is A"
+        return "grade : A"
     elif score >= 70:
-        return "your grade is B"
+        return "grade : B"
     elif score >= 60:
-        return "your grade is C"
+        return "grade : C"
     elif score >= 50:
-        return "your grade is D"
+        return "grade : D"
     elif score < 50:
-        return "your grade is F"
+        return "grade : F"
 
 def main():
     score = float(input("Enter your score (0-100): "))
